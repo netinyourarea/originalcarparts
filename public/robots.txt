@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://originalcarparts.us/sitemap.xml
