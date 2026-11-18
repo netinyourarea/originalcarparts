@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - run: npm run build
       # SPA fallback: unknown paths (e.g. /catalog on refresh) load the app shell
       - run: cp dist/index.html dist/404.html
